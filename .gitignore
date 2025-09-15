@@ -1,0 +1,40 @@
+# OS / IDE
+*.log
+.DS_Store
+Thumbs.db
+/.idea
+/.vscode
+/.fleet
+/.nova
+/.zed
+/phpactor.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Laravel specific
+/laravel-app/vendor
+/laravel-app/node_modules
+/laravel-app/public/build
+/laravel-app/public/hot
+/laravel-app/public/storage
+/laravel-app/storage/*.key
+/laravel-app/storage/pail
+/laravel-app/bootstrap/ssr
+/laravel-app/.phpunit.result.cache
+/laravel-app/.phpunit.cache
+Homestead.json
+Homestead.yaml
+
+# Testing
+/.phpunit.result.cache
+/.phpunit.cache
+
+# Dependencies
+/node_modules
+/vendor
+
+# Optional backup files
+*.backup
